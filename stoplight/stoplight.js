@@ -4,7 +4,6 @@ const yellowLight = document.querySelector('.two');
 const redLight = document.querySelector('.three');
 
 const lightArray = [greenLight, yellowLight, redLight];
-const color = ['green', 'yellow', 'red'];
 let index = 1;
 
 goButton.addEventListener('click', () => {
