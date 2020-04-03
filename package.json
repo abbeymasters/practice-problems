@@ -1,22 +1,21 @@
 {
-  "name": "practice-problems",
-  "version": "1.0.0",
-  "description": "",
+  "name": "01-node-ecosystem",
+  "version": "0.0.1",
+  "description": "this will be sooooo cool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abbeymasters/practice-problems.git"
+    "start": "node index.js",
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abbeymasters/practice-problems/issues"
-  },
-  "homepage": "https://github.com/abbeymasters/practice-problems#readme",
   "dependencies": {
-    "jest": "^25.2.0"
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
+    "jsdoc": "^3.6.3"
   }
 }
