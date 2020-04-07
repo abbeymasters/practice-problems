@@ -6,4 +6,10 @@ describe('reverse string test', () => {
     const result = reverseString(array);
     expect(result).toEqual('steal pound cake');
   });
+
+  it('still reverses a string', () => {
+    const newArray = ['b', 'y', 'e', ' ', 'b', 'y', 'e', ' ', 'b', 'a', 'b', 'y'];
+    const result = reverseString(newArray);
+    expect(result).toEqual('baby bye bye');
+  });
 });
